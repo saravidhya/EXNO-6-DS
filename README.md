@@ -36,7 +36,7 @@ df = sns.load_dataset("tips")
 df
 ```
 ![image](https://github.com/user-attachments/assets/7ac5aaf9-3407-4e1f-95ab-06b5e877dec1)
-![image](https://github.com/user-attachments/assets/908b517c-f864-4231-9e7c-082dadb8be20)
+
 ```
 sns.lineplot(x="total_bill",y="tip", data=df, hue="sex", linestyle='solid', legend="auto")
 ```
